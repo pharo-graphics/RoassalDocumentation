@@ -1,13 +1,13 @@
 # Tutorial 05 - Charting
 
-Here is another tutorial for [Roassal3](https://github.com/ObjectProfile/Roassal3).
+Here is another tutorial for [Roassal](https://github.com/pharo-graphics/Roassal).
 
 What you will learn in this tutorial:
 - the essential features of Chart, the Roassal component to draw charts;
 - create and visualize a chart from a given set of numbers found in a CSV file;
 - parse a CSV file using `DataFrame`.
 
-The topic of this tutorial is charting. It will gently introduce the charting library Roassal3 offers through some contrivied example at first, and then visualize a real dataset.
+The topic of this tutorial is charting. It will gently introduce the charting library Roassal offers through some contrivied example at first, and then visualize a real dataset.
 
 ## Simple example
 

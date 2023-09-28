@@ -1,6 +1,6 @@
 # Tutorial 04 - Shapes compositions
 
-In the previous tutoriales, we have essentially used individual shapes to describes one single domain element. Consider the code we employed in this [tutorial](https://github.com/ObjectProfile/Roassal3/blob/master/documentation/LesMiserables.md). Each shape (i.e., visual element) corresponds to one character of the Les Miserables. This tutorial is about composing shapes to create a sophisticated visual glyph.
+In the previous tutoriales, we have essentially used individual shapes to describes one single domain element. Consider the code we employed in this [tutorial](https://github.com/pharo-graphics/Roassal/blob/master/documentation/LesMiserables.md). Each shape (i.e., visual element) corresponds to one character of the Les Miserables. This tutorial is about composing shapes to create a sophisticated visual glyph.
 
 ## Les Miserable dataset
 
@@ -64,7 +64,7 @@ Each character has now a name. Each character `c` produces a composed shape with
 	g asShape
 ```
 
-The variable `g` points to a `RSGroup`, which is a collection of Roassal3 shapes. The class `RSGroup` is a subclass of the standard `OrderedCollection`. It is convenient to have Roassal shapes kepts in a `RSGroup` because of the convenient methods a group offers, such as translating and computing bounding boxes.
+The variable `g` points to a `RSGroup`, which is a collection of Roassal shapes. The class `RSGroup` is a subclass of the standard `OrderedCollection`. It is convenient to have Roassal shapes kepts in a `RSGroup` because of the convenient methods a group offers, such as translating and computing bounding boxes.
 
 The class `RSGroup` offers the method `asShape`, useful to create an instance of the Roassal class `RSComposite`. As such, the expression `g asShape` returns a composite shape. This shape can be added to the canvas using `add:`.
 

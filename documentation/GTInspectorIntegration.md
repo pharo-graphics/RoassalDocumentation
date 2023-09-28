@@ -224,7 +224,7 @@ So far, we have always called a visualize method to see the visualization. This 
 ```Smalltalk
 OrderedCollection>>gtInspectorViewIn: composite
 	<gtInspectorPresentationOrder: -10>
-	composite roassal3
+	composite Roassal
 		title: 'View';
 		initializeCanvas: [ self visualize ]
 ```

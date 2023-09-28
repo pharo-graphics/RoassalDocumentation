@@ -9,7 +9,7 @@ You have a class `C` and you wish to create a visualization that appears when yo
 ```Smalltalk
 C>>gtInspectorViewIn: composite
 	<gtInspectorPresentationOrder: -10>
-	composite roassal3
+	composite Roassal
 		title: 'View';
 		initializeCanvas: [ self visualize ]
 ```

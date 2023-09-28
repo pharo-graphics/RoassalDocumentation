@@ -1,6 +1,6 @@
 # Tutorial 01 - Adding Simple Nodes, Edges, and Layout
 
-This is a tutorial for Roassal3. In order to go through it, you need to have [Pharo](https://pharo.org) installed, and [Roassal3](https://github.com/ObjectProfile/Roassal3) installed.
+This is a tutorial for Roassal. In order to go through it, you need to have [Pharo](https://pharo.org) installed, and [Roassal](https://github.com/pharo-graphics/Roassal) installed.
 
 This tutorial involves some data manipulation. We will use the dataset of [Les Miserables](https://github.com/bergel/LesMiserables), which can be loaded in Pharo using:
 
@@ -13,7 +13,7 @@ Metacello new
 
 The dataset essentially contains two kinds of interesting data: _characters_ of the historical novel and _coappearances_ of the characters. We will visualize this data.
 
-After loading Les Miserables and Roassal3, you can execute the following script:
+After loading Les Miserables and Roassal, you can execute the following script:
 
 ```Smalltalk
 "Extract data from the French historical novel Les Miserables"

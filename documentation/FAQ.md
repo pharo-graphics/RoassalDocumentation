@@ -1,17 +1,17 @@
 # Frequently Asked Questions
 
 ## Where is the classes RTView 
-The class `RTView` belongs to [Roassal2](https://github.com/ObjectProfile/Roassal2). A class that begins with `RT` belongs to Roassal2. In Roassal3, classes begins with `RS`. 
+The class `RTView` belongs to [Roassal2](https://github.com/ObjectProfile/Roassal2). A class that begins with `RT` belongs to Roassal2. In Roassal, classes begins with `RS`. 
 
 ## What about the book Agile Visualization
-The book [http://agilevisualization.com](http://agilevisualization.com) is about Roassal2. Very little can be reused from the book for Roassal3. A new edition of Agile Visualization will appear during 2020.
+The book [http://agilevisualization.com](http://agilevisualization.com) is about Roassal2. Very little can be reused from the book for Roassal. A new edition of Agile Visualization will appear during 2020.
 
 ## How to export a visualization to PDF or SVG?
-We provide a set of exporter in https://github.com/ObjectProfile/Roassal3Exporters
+We provide a set of exporter in https://github.com/pharo-graphics/RoassalExporters
 We support PDF, SVG, MOV, and MP4. The last two file format are useful for animations.
 
 ## How to export a visualization in a given size of a PDF?
-You need to have the exporters https://github.com/ObjectProfile/Roassal3Exporters
+You need to have the exporters https://github.com/pharo-graphics/RoassalExporters
 The following code exports a visualization as a PDF file, using letter size:
 
 ```Smalltalk
@@ -45,7 +45,7 @@ GTInspector is a moldable inspector that is part of Pharo and was developed as p
 ```Smalltalk
 MyClass>>gtInspectorViewIn: composite
 	<gtInspectorPresentationOrder: -10>
-	composite roassal3
+	composite Roassal
 		title: 'View';
 		initializeCanvas: [ | c |
 			c := RSCanvas new.
